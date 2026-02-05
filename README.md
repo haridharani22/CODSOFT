@@ -1,4 +1,4 @@
-Titanic Survival Analysis – Data Science Project
+#Titanic Survival Analysis – Data Science Project
 Overview
 This project performs data science–based analysis on the Titanic passenger dataset to understand the factors that influenced survival during the Titanic disaster.
 The main focus of this project is data cleaning, exploratory data analysis (EDA), and insight generation, rather than building complex machine learning models.
