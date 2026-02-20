@@ -1,0 +1,165 @@
+🎬 Movie Rating Predin using Machine Learning
+
+📌 Overview
+
+This project is part of the CodSoft Data Science Internship. The goal is to build a machine learning model that predicts the rating of a movie based on various features such as genre, director, actors, duration, and votes.
+
+Movie rating prediction is a regression problem where the model learns patterns from historical movie data and estimates ratings for new movies.
+
+---
+
+📊 Dataset Information
+
+The dataset contains the following features:
+
+- Name – Movie name
+- Year – Release year of the movie
+- Duration – Length of movie (in minutes)
+- Genre – Category of the movie
+- Votes – Number of votes received
+- Director – Director of the movie
+- Actor 1 – Lead actor
+- Actor 2 – Supporting actor
+- Actor 3 – Supporting actor
+- Rating – Target variable (movie rating)
+
+---
+
+⚙️ Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Scikit-learn
+- Machine Learning (Linear Regression)
+
+---
+
+🧹 Data Preprocessing
+
+The following preprocessing steps were performed:
+
+- Loaded dataset using pandas
+- Handled missing values
+- Converted categorical features into numerical format
+- Removed unnecessary columns
+- Selected input features and target variable
+- Split dataset into training and testing sets
+
+---
+
+🎯 Features Used for Prediction
+
+Input Features (X):
+
+- Year
+- Duration
+- Genre
+- Votes
+- Director
+- Actor 1
+- Actor 2
+- Actor 3
+
+Target Feature (y):
+
+- Rating
+
+---
+
+🤖 Machine Learning Model Used
+
+Linear Regression
+
+Linear Regression is used because this is a regression problem where we predict continuous values (movie ratings).
+
+Steps performed:
+
+- Model training using training dataset
+- Prediction using testing dataset
+- Model evaluation using error metrics
+
+---
+
+📈 Results
+
+The model was successfully trained and tested.
+
+Example output:
+
+Mean Squared Error: (example)
+
+Mean Squared Error: 0.45
+
+This shows the model can predict movie ratings with reasonable accuracy.
+
+---
+
+▶️ How to Run This Project
+
+Step 1: Open Google Colab
+
+Go to:
+https://colab.research.google.com
+
+---
+
+Step 2: Upload Files
+
+Upload:
+
+- movie_dataset.csv
+- Movie_Rating_Prediction.ipynb
+
+---
+
+Step 3: Install Required Libraries
+
+import pandas as pd
+import numpy as np
+import sklearn
+
+---
+
+Step 4: Run Notebook
+
+Run all cells step by step to:
+
+- Load dataset
+- Preprocess data
+- Train model
+- Predict ratings
+
+---
+
+🎓 Internship Information
+
+This project was completed as part of:
+
+CodSoft Data Science Internship
+
+Task: Movie Rating Prediction with Python
+
+---
+
+👩‍💻 Author
+
+Name: K.Haridharani
+Role: Data Science Intern
+Platform: CodSoft Internship
+
+
+---
+
+✅ Conclusion
+
+This project demonstrates how machine learning can be used to predict movie ratings using regression techniques. It covers the complete data science workflow including:
+
+- Data collection
+- Data preprocessing
+- Model training
+- Prediction
+- Evaluation
+
+This project helps build strong fundamentals in machine learning and data science.
