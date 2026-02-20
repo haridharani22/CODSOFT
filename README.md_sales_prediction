@@ -1,0 +1,104 @@
+
+---
+📌 Overview
+
+This project focuses on predicting product sales using Machine Learning techniques. The objective is to build a regression model that estimates sales based on advertising expenditures across different platforms such as TV, Radio, and Newspaper.
+
+Sales prediction helps businesses make data-driven decisions by understanding how marketing investments impact revenue. This project demonstrates a complete machine learning workflow from data preprocessing to model evaluation.
+
+
+---
+
+📊 Dataset Used
+
+The dataset used in this project contains advertising budget details and corresponding sales values.
+
+Features:
+
+TV – Advertising budget spent on TV
+
+Radio – Advertising budget spent on Radio
+
+Newspaper – Advertising budget spent on Newspaper
+
+Sales – Product sales (Target Variable)
+
+
+The dataset is structured in CSV format and used for regression analysis.
+
+
+---
+
+🧹 Data Preprocessing
+
+The following preprocessing steps were performed:
+
+Loaded dataset using Pandas
+
+Checked for missing values
+
+Selected relevant features
+
+Separated input features (X) and target variable (y)
+
+Split dataset into training and testing sets (80% training, 20% testing)
+
+
+No major missing values were found, so minimal cleaning was required.
+
+
+---
+
+📈 Results
+
+The Linear Regression model was successfully trained and tested.
+
+Evaluation Metrics Used:
+
+Mean Squared Error (MSE)
+
+R² Score
+
+
+The model achieved a good R² score, indicating a strong relationship between advertising budget and sales.
+
+Example Output:
+
+Mean Squared Error: (example value)
+R² Score: (example value close to 1 shows good performance)
+
+This shows that the model can reasonably predict sales based on advertising expenditure.
+
+
+---
+
+🎯 Conclusion
+
+This project demonstrates how machine learning can be applied to solve real-world business problems such as sales forecasting.
+
+Using Linear Regression, we successfully:
+
+Built a regression model
+
+Trained and tested the model
+
+Evaluated performance using metrics
+
+Predicted future sales based on new input values
+
+
+This project strengthens understanding of regression models, feature selection, and model evaluation techniques in data science.
+
+
+---
+
+👩‍💻 Author
+
+Name: K.Haridharani
+Role: Data Science Intern
+Internship: CodSoft Data Science Internship
+Platform: Python & Google Colab
+
+
+---
+
